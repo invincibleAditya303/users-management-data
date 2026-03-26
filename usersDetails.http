@@ -1,0 +1,14 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john123@example.com",
+    "phone": "9708483240",
+    "company": "Dunder Mufflin",
+    "role": "System adminstrator"
+}
+
+###
+
+GET http://localhost:3000/users?sort="name"
