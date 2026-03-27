@@ -26,7 +26,7 @@ const intializeDbAndServer = async () => {
             console.log('Server running at http://localhost:3000')
         })
     } catch (e) {
-        console.log(`DB Rrror: ${e}`)
+        console.log(`DB Error: ${e}`)
     }
 }
 
